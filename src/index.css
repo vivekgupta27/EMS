@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    
+    color: #fff;
+    ::-webkit-scrollbar{
+        width: 10px; /* Set the width for vertical scrollbars */
+        height: 10px;
+    }
+  
+      
+      /* Thumb (scroll handle) of the scrollbar */
+      ::-webkit-scrollbar-thumb {
+        background: #272525;
+        border-radius: 20px;
+      }
+      
+     
+}
+body{
+    background: #0b0808;
+}
+
+#tasklist::-webkit-scrollbar{
+ display: none;
+}
